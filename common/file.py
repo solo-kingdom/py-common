@@ -63,3 +63,8 @@ def is_specific_suffix(file_path, suffix):
     if pathlib.PurePath(file_path).suffix.lower() == suffix:
         return True
     return False
+
+
+def ensure_path(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
