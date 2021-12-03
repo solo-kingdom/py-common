@@ -3,6 +3,6 @@ __all__ = [
     'logger'
 ]
 
-from common.common.log import ILogger
+from common.log import ILogger
 
 logger = ILogger()

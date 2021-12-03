@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from common.common.file import ensure_path
+from common.file import ensure_path
 
 
 class Test(TestCase):

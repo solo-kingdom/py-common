@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from common.common.request.file import upload
+from common.request.file import upload
 
 
 class Test(TestCase):
